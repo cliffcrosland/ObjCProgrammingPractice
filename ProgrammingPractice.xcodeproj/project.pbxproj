@@ -19,6 +19,8 @@
 		786B13121650DC8600F325E9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786B13101650DC8600F325E9 /* MainStoryboard_iPhone.storyboard */; };
 		786B13151650DC8600F325E9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786B13131650DC8600F325E9 /* MainStoryboard_iPad.storyboard */; };
 		786B13181650DC8600F325E9 /* ProgrammingPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B13171650DC8600F325E9 /* ProgrammingPracticeViewController.m */; };
+		786B13201650DDF700F325E9 /* ProjectEuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B131F1650DDF700F325E9 /* ProjectEuler.m */; };
+		786B1323165156E800F325E9 /* MathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B1322165156E800F325E9 /* MathUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		786B13141650DC8600F325E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		786B13161650DC8600F325E9 /* ProgrammingPracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgrammingPracticeViewController.h; sourceTree = "<group>"; };
 		786B13171650DC8600F325E9 /* ProgrammingPracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgrammingPracticeViewController.m; sourceTree = "<group>"; };
+		786B131E1650DDF700F325E9 /* ProjectEuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectEuler.h; sourceTree = "<group>"; };
+		786B131F1650DDF700F325E9 /* ProjectEuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectEuler.m; sourceTree = "<group>"; };
+		786B1321165156E800F325E9 /* MathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtils.h; sourceTree = "<group>"; };
+		786B1322165156E800F325E9 /* MathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +94,13 @@
 				786B13071650DC8600F325E9 /* ProgrammingPracticeAppDelegate.h */,
 				786B13081650DC8600F325E9 /* ProgrammingPracticeAppDelegate.m */,
 				786B13101650DC8600F325E9 /* MainStoryboard_iPhone.storyboard */,
+				786B131E1650DDF700F325E9 /* ProjectEuler.h */,
+				786B131F1650DDF700F325E9 /* ProjectEuler.m */,
 				786B13131650DC8600F325E9 /* MainStoryboard_iPad.storyboard */,
 				786B13161650DC8600F325E9 /* ProgrammingPracticeViewController.h */,
 				786B13171650DC8600F325E9 /* ProgrammingPracticeViewController.m */,
+				786B1321165156E800F325E9 /* MathUtils.h */,
+				786B1322165156E800F325E9 /* MathUtils.m */,
 				786B12FF1650DC8600F325E9 /* Supporting Files */,
 			);
 			path = ProgrammingPractice;
@@ -181,6 +191,8 @@
 				786B13051650DC8600F325E9 /* main.m in Sources */,
 				786B13091650DC8600F325E9 /* ProgrammingPracticeAppDelegate.m in Sources */,
 				786B13181650DC8600F325E9 /* ProgrammingPracticeViewController.m in Sources */,
+				786B13201650DDF700F325E9 /* ProjectEuler.m in Sources */,
+				786B1323165156E800F325E9 /* MathUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

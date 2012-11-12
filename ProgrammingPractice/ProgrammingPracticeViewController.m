@@ -7,23 +7,13 @@
 //
 
 #import "ProgrammingPracticeViewController.h"
-
-@interface ProgrammingPracticeViewController ()
-
-@end
+#import "ProjectEuler.h"
 
 @implementation ProgrammingPracticeViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)solveButton:(UIButton *)sender {
+    NSNumber *solution = [ProjectEuler solveProblem4];
+    self.solutionLabel.text = [NSString stringWithFormat:@"%lld", [solution longLongValue]];
 }
 
 @end

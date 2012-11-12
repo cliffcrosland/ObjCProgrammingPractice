@@ -10,4 +10,6 @@
 
 @interface ProgrammingPracticeViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *solutionLabel;
+
 @end
